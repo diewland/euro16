@@ -1,0 +1,64 @@
+<script src='./uefa_euro.js'></script>
+<script>
+    var euro16 = new UEFAEuro(2016);
+
+    euro16.add_group('A', [ 'FRA', 'SWI', 'ALB', 'ROM' ]);
+    euro16.add_group('B', [ 'WAL', 'ENG', 'SLO', 'RUS' ]);
+    euro16.add_group('C', [ 'GER', 'POL', 'NIR', 'UKR' ]);
+    euro16.add_group('D', [ 'CRO', 'SPN', 'TUR', 'CZE' ]);
+    euro16.add_group('E', [ 'ITA', 'BEL', 'IRE', 'SWE' ]);
+    euro16.add_group('F', [ 'HUN', 'ICE', 'POR', 'AUS' ]);
+
+    // week 1
+    euro16.add_record('FRA', 2, 'ROM', 1);
+    euro16.add_record('ALB', 0, 'SWI', 1);
+    euro16.add_record('WAL', 2, 'SLO', 1);
+
+    euro16.add_record('ENG', 1, 'RUS', 1);
+    euro16.add_record('TUR', 0, 'CRO', 1);
+    euro16.add_record('POL', 1, 'NIR', 0);
+
+    euro16.add_record('GER', 2, 'UKR', 0);
+    euro16.add_record('SPN', 1, 'CZE', 0);
+    euro16.add_record('IRE', 1, 'SWE', 1);
+
+    euro16.add_record('BEL', 0, 'ITA', 2);
+    euro16.add_record('AUS', 0, 'HUN', 2);
+    euro16.add_record('POR', 1, 'ICE', 1);
+
+    // week 2
+    euro16.add_record('RUS', 1, 'SLO', 2);
+    euro16.add_record('ROM', 1, 'SWI', 1);
+
+    euro16.add_record('FRA', 2, 'ALB', 0);
+    euro16.add_record('ENG', 2, 'WAL', 1);
+    euro16.add_record('UKR', 0, 'NIR', 2);
+
+    euro16.add_record('GER', 0, 'POL', 0);
+    euro16.add_record('ITA', 1, 'SWE', 0);
+    euro16.add_record('CZE', 2, 'CRO', 2);
+
+    euro16.add_record('SPN', 3, 'TUR', 0);
+    euro16.add_record('BEL', 3, 'IRE', 0);
+    euro16.add_record('ICE', 1, 'HUN', 1);
+
+    euro16.add_record('POR', 0, 'AUS', 0);
+
+    // week 3
+    euro16.add_record('SWI', 0, 'FRA', 0);
+    euro16.add_record('ROM', 0, 'ALB', 1);
+
+    euro16.add_record('RUS', 0, 'WAL', 3);
+    euro16.add_record('SLO', 0, 'ENG', 0);
+    euro16.add_record('UKR', 0, 'POL', 1);
+    euro16.add_record('NIR', 0, 'GER', 1);
+
+    euro16.add_record('CZE', 0, 'TUR', 2);
+    euro16.add_record('CRO', 2, 'SPN', 1);
+    euro16.add_record('ICE', 2, 'AUS', 1);
+    euro16.add_record('HUN', 3, 'POR', 3);
+
+    euro16.add_record('ITA', 0, 'IRE', 1);
+    euro16.add_record('SWE', 0, 'BEL', 1);
+
+</script>
